@@ -35,7 +35,7 @@ const Header = () => {
       </div>
       <div
         className={
-          !nav ? "hidden" : "bg-[#92E3A9] p-52 xs:my-0 md:my-0 lg:hidden"
+          !nav ? "hidden" : "bg-[#92E3A9] p-4 xs:my-0 md:my-0 lg:hidden"
         }
       >
         <ul className="my-7 flex-col space-y-16 text-center font-monto">
