@@ -1,6 +1,7 @@
 import React from "react";
 import { BiSearch } from "react-icons/bi";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -9,16 +10,19 @@ const Header = () => {
         QR Code Generator
       </div>
 
-      <div>
+      <div className="lg:flex xs:hidden">
         <ul className="flex gap-20 font-monto">
           <li>Home</li>
           <li>About</li>
           <li>Contact</li>
         </ul>
       </div>
-      <div className="flex mr-8 gap-5">
+      <div className="lg:flex xs:hidden mr-8 gap-5">
         <BiSearch className="text-[28px]" />
         <MdOutlineShoppingCart className="text-[28px]" />
+      </div>
+      <div className="xs:flex lg:hidden">
+        <FaBars className="text-[20px]" />
       </div>
     </div>
   );
