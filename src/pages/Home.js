@@ -39,7 +39,7 @@ const Home = () => {
             <option value="700">700x700</option>
           </select>
           <button
-            className="bg-[#92E3A9] rounded w-full font-monto py-3 px-4 mt-5 hover:bg-[#CFE8A9]"
+            className="bg-[#92E3A9] rounded duration-500 w-full font-monto py-3 px-4 mt-5 hover:bg-[#CFE8A9]"
             type="submit"
           >
             Generate QR Code
