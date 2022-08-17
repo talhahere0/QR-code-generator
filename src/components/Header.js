@@ -8,7 +8,7 @@ const Header = () => {
   const handleToggle = () => setNav(!nav);
   return (
     <>
-      <div className="bg-[#92E3A9] p-6 lg:mb-10 flex justify-between items-center">
+      <div className="bg-[#92E3A9] p-3 lg:mb-10 flex justify-between items-center">
         <div className="sm:text-[20px] md:text-[24px] pl-10 font-monto font-bold">
           QR Code Generator
         </div>
